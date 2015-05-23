@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A87B3273-0F7E-4E8E-BEB3-F16EFC4A9E33}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>F:\biblioteki\SFML-2.2\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>F:\biblioteki\SFML-2.2\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-audio-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>F:\biblioteki\SFML-2.2\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_DYNAMIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>F:\biblioteki\SFML-2.2\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-main.lib;sfml-audio.lib;sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CurveMove.cpp" />
+    <ClCompile Include="DesertlandBuilder.cpp" />
+    <ClCompile Include="EasyName.cpp" />
+    <ClCompile Include="ElipticMove.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="FastEnemy.cpp" />
+    <ClCompile Include="GamePlay.cpp" />
+    <ClCompile Include="GamePlayer.cpp" />
+    <ClCompile Include="GrasslandBuilder.cpp" />
+    <ClCompile Include="HardName.cpp" />
+    <ClCompile Include="LaserBulletPrototype.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapBuilderPattern.cpp" />
+    <ClCompile Include="GameMap.cpp" />
+    <ClCompile Include="MediumName.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
+    <ClCompile Include="NormalBulletPrototype.cpp" />
+    <ClCompile Include="SlowEnemy.cpp" />
+    <ClCompile Include="SnowlandBuilder.cpp" />
+    <ClCompile Include="StraightMove.cpp" />
+    <ClCompile Include="StringAggregate.cpp" />
+    <ClCompile Include="StringIterator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aggregate_.h" />
+    <ClInclude Include="BulletPrototype.h" />
+    <ClInclude Include="CurveMove.h" />
+    <ClInclude Include="DesertlandBuilder.h" />
+    <ClInclude Include="EasyName.h" />
+    <ClInclude Include="ElipticMove.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyName.h" />
+    <ClInclude Include="FastEnemy.h" />
+    <ClInclude Include="GamePlay.h" />
+    <ClInclude Include="GamePlayer.h" />
+    <ClInclude Include="GrasslandBuilder.h" />
+    <ClInclude Include="HardName.h" />
+    <ClInclude Include="IteratorPattern.h" />
+    <ClInclude Include="LandBuilderPattern.h" />
+    <ClInclude Include="GameMap.h" />
+    <ClInclude Include="LaserBulletPrototype.h" />
+    <ClInclude Include="MediumName.h" />
+    <ClInclude Include="GameMenu.h" />
+    <ClInclude Include="Modifier.h" />
+    <ClInclude Include="MoveStrategy.h" />
+    <ClInclude Include="NormalBulletPrototype.h" />
+    <ClInclude Include="SlowEnemy.h" />
+    <ClInclude Include="SnowlandBuilder.h" />
+    <ClInclude Include="StraightMove.h" />
+    <ClInclude Include="StringAggregate.h" />
+    <ClInclude Include="StringIterator.h" />
+    <ClInclude Include="VectorAggregate.h" />
+    <ClInclude Include="VectorIterator.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

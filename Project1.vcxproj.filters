@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\BuilderPattern">
+      <UniqueIdentifier>{1e102f48-43b4-4ab0-b5ae-1ffe3317dd49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PrototypePattern">
+      <UniqueIdentifier>{f7f7ca6c-d6c4-41d0-9ced-4dd7881dd6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SingletonPattern">
+      <UniqueIdentifier>{e6bfad6a-d9d8-414f-bc8b-5c3aab7aafc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DecoratorPattern">
+      <UniqueIdentifier>{e2c9007c-feeb-483a-80be-4ba66d43fe24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StrategyPattern">
+      <UniqueIdentifier>{7050adbf-3ec6-42d6-a655-93cccfdbf099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IteratorPattern">
+      <UniqueIdentifier>{35b80982-10b3-4f3f-a33b-5373bd474413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\BuilderPattern">
+      <UniqueIdentifier>{f4b5bbd9-1993-4b4a-8f49-34037cc81c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\SingletonPattern">
+      <UniqueIdentifier>{6aa23c97-5d6b-4b84-b2e5-67185d348507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\PrototypePattern">
+      <UniqueIdentifier>{fbaef4b7-66bf-4d43-ba36-53fad5a7eec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\IteratorPattern">
+      <UniqueIdentifier>{996397c1-ed06-4f1b-9f9d-3528bbb73889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\DecoratorPattern">
+      <UniqueIdentifier>{22e8d261-6319-4be7-9be7-b68e074ea61c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\StrategyPattern">
+      <UniqueIdentifier>{c723ddae-9a28-4e62-8e1e-7179d16614a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DesertlandBuilder.cpp">
+      <Filter>Resource Files\Source Files\BuilderPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="GrasslandBuilder.cpp">
+      <Filter>Resource Files\Source Files\BuilderPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowlandBuilder.cpp">
+      <Filter>Resource Files\Source Files\BuilderPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBuilderPattern.cpp">
+      <Filter>Resource Files\Source Files\BuilderPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayer.cpp">
+      <Filter>Resource Files\Source Files\SingletonPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBulletPrototype.cpp">
+      <Filter>Resource Files\Source Files\PrototypePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="StringIterator.cpp">
+      <Filter>Resource Files\Source Files\IteratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBulletPrototype.cpp">
+      <Filter>Resource Files\Source Files\PrototypePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="StringAggregate.cpp">
+      <Filter>Resource Files\Source Files\IteratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="FastEnemy.cpp">
+      <Filter>Resource Files\Source Files\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="SlowEnemy.cpp">
+      <Filter>Resource Files\Source Files\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="MediumName.cpp">
+      <Filter>Resource Files\Source Files\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="HardName.cpp">
+      <Filter>Resource Files\Source Files\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyName.cpp">
+      <Filter>Resource Files\Source Files\DecoratorPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StraightMove.cpp">
+      <Filter>Resource Files\Source Files\StrategyPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="ElipticMove.cpp">
+      <Filter>Resource Files\Source Files\StrategyPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveMove.cpp">
+      <Filter>Resource Files\Source Files\StrategyPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SnowlandBuilder.h">
+      <Filter>Header Files\BuilderPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="LandBuilderPattern.h">
+      <Filter>Header Files\BuilderPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="GrasslandBuilder.h">
+      <Filter>Header Files\BuilderPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="DesertlandBuilder.h">
+      <Filter>Header Files\BuilderPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayer.h">
+      <Filter>Header Files\SingletonPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPrototype.h">
+      <Filter>Header Files\PrototypePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBulletPrototype.h">
+      <Filter>Header Files\PrototypePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBulletPrototype.h">
+      <Filter>Header Files\PrototypePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="StringIterator.h">
+      <Filter>Header Files\IteratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="StringAggregate.h">
+      <Filter>Header Files\IteratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Aggregate_.h">
+      <Filter>Header Files\IteratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="IteratorPattern.h">
+      <Filter>Header Files\IteratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorAggregate.h">
+      <Filter>Header Files\IteratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorIterator.h">
+      <Filter>Header Files\IteratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="SlowEnemy.h">
+      <Filter>Header Files\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="FastEnemy.h">
+      <Filter>Header Files\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyName.h">
+      <Filter>Header Files\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Modifier.h">
+      <Filter>Header Files\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyName.h">
+      <Filter>Header Files\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveStrategy.h">
+      <Filter>Header Files\StrategyPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="HardName.h">
+      <Filter>Header Files\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="MediumName.h">
+      <Filter>Header Files\DecoratorPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveMove.h">
+      <Filter>Header Files\StrategyPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="StraightMove.h">
+      <Filter>Header Files\StrategyPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="ElipticMove.h">
+      <Filter>Header Files\StrategyPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
